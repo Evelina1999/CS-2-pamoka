@@ -10,6 +10,18 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int A = 1;
+            int B = 2;
+
+            Console.WriteLine($"{A},{B}");
+
+            (A, B) = (B, A);
+
+            Console.WriteLine("{0}, {1}",A,B);
+
+            Console.ReadLine(); 
+
+
         }
-    }
+}
 }
