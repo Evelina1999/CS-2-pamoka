@@ -61,9 +61,10 @@ namespace Mokykla
             Console.WriteLine("Kurso pradzios data: " + kursoPradziosData);
             Console.WriteLine("Kurso pabaigos data: " + kursoPabaigosData);
             Console.WriteLine("Dienu skirtumas tarp kuso pradzios ir pabaigos: " + dienuSkirtumas);
-            Console.WriteLine("Savaiciu skaicius: " + savaiciuSkaicius);
-            Console.WriteLine("Darbo dienu skaicius: " + dienuSkaiciusBeSavaitgaliu);
+            Console.WriteLine("Savaiciu skaicius: {0}", savaiciuSkaicius);
+            Console.WriteLine($"Darbo dienu skaicius: {dienuSkaiciusBeSavaitgaliu}");
             Console.ReadLine();
+
 
 
         }
