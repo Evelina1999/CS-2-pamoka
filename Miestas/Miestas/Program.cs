@@ -18,11 +18,15 @@ namespace Miestas
             int namoNr = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Suvesk pastatymo metus:");
             DateTime pastatymoMetai = Convert.ToDateTime(Console.ReadLine());
+            Console.WriteLine("Suvesk statymo pradzios metus:");
+            DateTime statymoPradziosMetai = Convert.ToDateTime(Console.ReadLine());
 
             Console.WriteLine($"Miesto pavadinimas: {miestoPavadinimas}\n" +
                 $"Gatves pavadinimas: {gatvesPavadinimas}\n" +
                 $"Namo numeris: {namoNr}\n" +
-                $"Namo pastatymo metai (pvz. 2022/02/03): {pastatymoMetai.Year}");
+                $"Namo pastatymo metai (pvz. 2022/02/03): {pastatymoMetai}\n" +
+                $"Namo statymo pradzia: {statymoPradziosMetai}\n" +
+                $"Nama state {(pastatymoMetai - statymoPradziosMetai).TotalDays / 365} metu");
 
             Console.ReadLine(); 
                 
