@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kintamasis", "Kintamasis\Kintamasis.csproj", "{9DDB3E56-4E5F-4BBE-9DBE-2957724734B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DDB3E56-4E5F-4BBE-9DBE-2957724734B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDB3E56-4E5F-4BBE-9DBE-2957724734B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDB3E56-4E5F-4BBE-9DBE-2957724734B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDB3E56-4E5F-4BBE-9DBE-2957724734B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A31999-DEC5-4147-B450-4FE3B0C1B16C}
+	EndGlobalSection
+EndGlobal
