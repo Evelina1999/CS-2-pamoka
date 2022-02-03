@@ -10,6 +10,16 @@ namespace Kintamasis
     {
         static void Main(string[] args)
         {
+            int A = 5; 
+            int B = 8;
+
+            (A, B) = (B, A);
+
+            Console.WriteLine($"A, {A}" );
+            Console.WriteLine($"B, {B}" );
+
+            Console.ReadLine();
+
         }
     }
 }
