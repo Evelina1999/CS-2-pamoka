@@ -15,10 +15,9 @@ namespace Staciakampio_plotas
 
             Console.WriteLine("Iveskite staciakampio ilgi");
             ilgis = Convert.ToInt32(Console.ReadLine());
-           
             Console.WriteLine("Iveskite staciakampio ploti");
-            plotis = Convert.ToInt32(Console.Read());
-            Console.WriteLine("cm");
+            plotis = Convert.ToInt32(Console.ReadLine());
+
             Console.WriteLine($"Plotas: {ilgis * plotis}"); 
 
             Console.ReadLine();
