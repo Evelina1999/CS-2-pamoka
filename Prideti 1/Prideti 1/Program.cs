@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Skaiciu_sulyginimas
+namespace Prideti_1
 {
     internal class Program
     {
@@ -18,11 +18,13 @@ namespace Skaiciu_sulyginimas
             Console.WriteLine("Iveskite skaiciu B");
             skaiciusB = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine((skaiciusA == skaiciusB));
+            //skaiciusA++;
+            //skaiciusB--;
+
+            Console.WriteLine((skaiciusA++));
+            Console.WriteLine((skaiciusB--)); 
 
             Console.ReadLine();
-
- 
         }
     }
 }
