@@ -18,11 +18,11 @@ namespace Prideti_1
             Console.WriteLine("Iveskite skaiciu B");
             skaiciusB = Convert.ToInt32(Console.ReadLine());
 
-            //skaiciusA++;
-            //skaiciusB--;
+            skaiciusA++;
+            skaiciusB--;
 
-            Console.WriteLine((skaiciusA++));
-            Console.WriteLine((skaiciusB--)); 
+            Console.WriteLine(skaiciusA);
+            Console.WriteLine(skaiciusB); 
 
             Console.ReadLine();
         }
