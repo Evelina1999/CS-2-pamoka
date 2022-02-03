@@ -14,8 +14,13 @@ namespace Apskritimo_plotas
             decimal apskritimoSpindulys = Convert.ToDecimal(Console.ReadLine());
 
             Console.WriteLine($"Apskritimo ilgis: {(apskritimoSpindulys * 2) * Convert.ToDecimal(Math.PI)}");
+            Console.WriteLine($"Apskritimo plotas: {Convert.ToDecimal(Math.PI) * (apskritimoSpindulys * apskritimoSpindulys)}");
 
             Console.ReadLine();
+
+
+
+
         }
     }
 }
