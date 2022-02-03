@@ -18,6 +18,7 @@ namespace Vardas_pavarde
             pavarde = Convert.ToString(Console.ReadLine());
 
 
+            
             Console.WriteLine($"{vardas} {pavarde}"); 
             Console.ReadLine();
 
