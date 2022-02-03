@@ -10,6 +10,15 @@ namespace Staciakampio_krastine
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("iveskite staciakampio krastines x ilgi");
+            decimal x = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine("iveskite staciakampio krastines y ilgi");
+            decimal y = Convert.ToDecimal(Console.ReadLine());
+            Console.WriteLine((x * y) / (2 * 3));
+
+            Console.ReadLine();
+
+
         }
     }
 }
